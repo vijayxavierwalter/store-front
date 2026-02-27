@@ -57,7 +57,7 @@ export default {
     return {
       products: [],
       selectedProduct: null,
-      quantity: 1,  // Initialize quantity with a default value of 1
+      quantity: 1,  // Initialize quantity with a default value 1
     };
   },
   async created() {
