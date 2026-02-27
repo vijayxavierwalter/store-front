@@ -27,7 +27,7 @@ jobs:
           VUE_APP_PRODUCT_SERVICE_URL: "https://product-service-app-cucqgzg2fecegtbq.canadacentral-01.azurewebsites.net"
           VUE_APP_ORDER_SERVICE_URL: "https://order-service-app-a9htgzhpbugfe4h5.canadacentral-01.azurewebsites.net"
         with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_ASHY_COAST_0D461190F }}
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
           repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
           action: "upload"
           ###### Repository/Build Configurations ######
@@ -47,3 +47,4 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_ASHY_COAST_0D461190F }}
           action: "close"
+
